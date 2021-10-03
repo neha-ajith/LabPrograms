@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+
+{
+    int num,remainder=0,sum=0;
+
+    printf("Enter the number: ");
+
+    scanf("%d",&num);
+
+    while(num!=0)
+
+    {
+
+        remainder=num%10;
+
+        sum=sum*10+remainder;
+
+        num=num/10;
+
+    }
+
+    while(sum!=0)
+
+    {
+
+        remainder=sum%10;
