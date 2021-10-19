@@ -1,5 +1,5 @@
 #!/bin/bash
- echo -n -e "Enter decimal number: "
+ echo -n -e "Enter decimal no: "
  read num
 arr=0
 for(( i=0;$num>0;i++ ))
