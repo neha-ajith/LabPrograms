@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -n -e "Enter a binary number:"
+echo -n -e "Enter a binary no:"
 read num
 bin=$num
 dec=0
@@ -13,5 +13,5 @@ dec=`expr $dec + $rem \* $base`
 num=`expr $num / 10`
 base=`expr $base \* 2`
 done
-echo "Binary number is $bin"
-echo "Decimal number is $dec"
+echo "Binary num is $bin"
+echo "Decimal num is $dec"
