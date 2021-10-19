@@ -2,7 +2,7 @@
 #include<D:\C\BubbleSort.c>
 void main(){
     int n,i,ar[20],j,temp,s,low,high,mid,f = 0;
-    printf("Enter the number of elements: ");
+    printf("Enter the no of elements: ");
     scanf("%d",&n);
     printf("Enter the array elements: \n");
     for(i=0;i<n;i++)
@@ -22,7 +22,7 @@ void main(){
             low = mid + 1;
         }
         else if(s==ar[mid]){
-            printf("The element %d found at position %d.",s,mid+1);
+            printf("The element %d in at position %d.",s,mid+1);
             f = 1;
             break;
         }
