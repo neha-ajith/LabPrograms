@@ -2,11 +2,11 @@
 
 int main() {  
 
-    char c;
+    char v;
 
-    printf("Enter a character: ");
+    printf("Enter a string: ");
 
-    scanf("%c", &c);  
+    scanf("%c", &v);  
 
     
 
@@ -14,7 +14,7 @@ int main() {
 
     // %c displays the actual character
 
-    printf("ASCII value of %c = %d", c, c);
+    printf("ASCII value of %c = %d", v, v);
 
     
 
